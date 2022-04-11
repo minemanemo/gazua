@@ -16,7 +16,6 @@ const global = css`
     font-size: 16px;
     font-family: Cafe24Oneprettynight, sans-serif;
     -ms-overflow-style: none;
-    overflow: hidden;
   }
 
   ::-webkit-scrollbar {
