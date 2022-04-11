@@ -4,13 +4,13 @@ type Props = React.HTMLAttributes<SVGSVGElement> & {
   size?: number;
 };
 
-const Logo = ({ size = 720, ...props }: Props) => {
+const Logo = ({ size = 200, ...props }: Props) => {
   return (
     <svg
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="318"
-      height="100"
+      width={size}
+      height={size * 0.318}
       viewBox="0 0 318 100"
       preserveAspectRatio="xMidYMid meet"
       {...props}
